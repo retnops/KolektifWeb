@@ -1,0 +1,44 @@
+.kwork-button{
+	border: 1px solid #03cce6;
+	height: 100%;
+	padding: 10px;
+	color: #03cce6;
+	
+	text-align: center;
+}
+
+
+.kwork-button:hover{
+	background-color: #03cce6;
+	color: white;
+	text-decoration: none;
+}
+
+.section_1_gallery_grid_kw {
+	position: relative;
+	background: #edf3f3;
+	padding: 6px;
+	border-radius: 50%;
+}
+
+.krenwork-item0{
+	max-width: 250px;
+	margin-left: 50px;
+	margin-bottom: 5px;
+}
+
+.krenwork-card{
+	width: 100%
+}
+
+
+@media(max-width: 480px){
+	.krenwork-item{
+		min-height: 150px;
+	}
+	.krenwork-item0{
+		margin-top: 5px;
+		margin-left: 20px;
+		margin-bottom: 0px;
+	}
+}

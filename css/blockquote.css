@@ -1,0 +1,29 @@
+<style type="text/css">
+	blockquote {
+	max-width: 900px;
+	margin: 0;
+	width: 100%;
+	padding: 40px 70px;
+	background: #3E7DB3;
+    color: #FFFFFF;	
+	position: relative;
+}
+blockquote::before,
+blockquote::after {
+	font-size: 350%;
+	font-family: arial;
+	display:block;
+	position: absolute;
+}
+blockquote::before {
+	content: open-quote;
+	left: 30px;
+    line-height: 40px;
+}
+blockquote::after {
+	content: close-quote;
+	right: 30px;
+    line-height: 30px;
+}
+
+</style>

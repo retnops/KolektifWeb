@@ -1,0 +1,62 @@
+.section-roadmap{
+	background: -webkit-linear-gradient(rgba(23, 22, 23, 1), rgba(23, 22, 23, 0.5)), url(../images/apps-mobile-smartphone-ss-1920.jpg) no-repeat;
+	background-size: cover;
+	min-height: 600px;
+	padding: 30px 0px 50px 0px;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+
+}
+
+
+.flex-container > div {
+  background-color: #E3F2FD;
+  
+  padding: 10px 0px 10px 10px;
+
+}
+
+
+
+.roadmap > h4 {
+	padding: 10px 0px 0px 0px;
+	text-align: center;
+
+}
+.roadmap > p {
+	font-size: 16px
+	color:#bfbfbf;
+
+	
+}
+.roadmap > ul {
+	margin: 20px 0px 0px 0px;
+	padding: 20px;
+}
+.roadmap > ul > li {
+	font-size: 14px;
+	text-align: left;
+	margin: 0px 0px 0px 0px;
+	padding: 5px;
+}
+
+@media(max-width: 480px){
+	.flex-container {
+		flex-wrap: wrap;
+		background: none;
+		width: auto;
+		height: auto;
+		margin-left: 0px;
+
+	}
+	.flex-container > div {
+		margin: 5px
+		height: auto;
+
+	}
+}

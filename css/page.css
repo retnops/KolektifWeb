@@ -1,0 +1,141 @@
+<style>
+* {box-sizing: border-box}
+.tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 33.3%;
+}
+
+.tablink:hover {
+    background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+    color: #777;
+    display: block;
+    padding: 100px 20px;
+    height: 100%;
+    margin: 2px 0 2px 0 ;
+}
+
+#News {background-color: ; }
+#Contact {background-color: ;}
+#About {background-color: ; }
+
+
+/*.list-type2{
+width:100%;
+margin:0 auto;
+}
+
+.list-type2 ol{
+counter-reset: li;
+list-style: none;
+*list-style: decimal;
+font-size: 15px;
+font-family: 'Raleway', sans-serif;
+padding: 0;
+margin-bottom: 0.5em;
+}
+
+.list-type2 ol ol{
+margin: 0 0 0 2em;
+}
+
+.list-type2 a{
+position: relative;
+display: block;
+padding: .1.5em .1.5em .1.5em 0.75em;
+*padding: .2em;
+margin: .2em 0;
+background: #317AB1;
+color: #444;
+text-decoration: none;
+transition: all .2s ease-in-out;
+}
+
+.list-type2 a:hover{
+background: #d6d4d4;
+text-decoration:none;
+transform: scale(1.1);
+}
+
+.list-type2 a:before{
+content: counter(li);
+counter-increment: li;
+position: absolute;
+left: -1.3em;
+top: 50%;
+margin-top: -1.3em;
+background:#317AB1;
+height: 2em;
+width: 2em;
+line-height: 2em;
+border: .3em solid #fff;
+text-align: center;
+font-weight: bold;
+color:#FFF;
+}
+.list-type3{
+width:100%;
+margin:0 auto;
+}
+
+.list-type3 ol{
+counter-reset: li;
+list-style: none;
+*list-style: decimal;
+font-size: 15px;
+font-family: 'Raleway', sans-serif;
+padding: 0;
+margin-bottom: 0.5em;
+}
+
+.list-type3 ol ol{
+margin: 0 0 0 2em;
+}
+
+.list-type3 a{
+position: relative;
+display: block;
+padding: .1.5em .1.5em .1.5em 0.75em;
+*padding: .2em;
+margin: .2em 0;
+background: #555;
+color: #444;
+text-decoration: none;
+transition: all .2s ease-in-out;
+}
+
+.list-type3 a:hover{
+background: #d6d4d4;
+text-decoration:none;
+transform: scale(1.1);
+}
+
+.list-type3 a:before{
+content: counter(li);
+counter-increment: li;
+position: absolute;
+left: -1.3em;
+top: 50%;
+margin-top: -1.3em;
+background:#555;
+height: 2em;
+width: 2em;
+line-height: 2em;
+border: .3em solid #fff;
+text-align: center;
+font-weight: bold;
+color:#FFF;
+}*/
+
+
+</style>
